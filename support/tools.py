@@ -4,7 +4,7 @@ from .tracking_data import DELIVERY_DATA
 
 
 
-def get_order_detail(order_id):
+def get_order_details(order_id):
     try:
         order=Order.objects.get(id=order_id)
         return {
