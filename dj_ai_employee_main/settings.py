@@ -135,3 +135,7 @@ ANTHROPIC_API_KEY=config("ANTHROPIC_API_KEY")
 ANTHROPIC_MODEL=config("ANTHROPIC_MODEL")
 
 STATICFILES_STORAGE = 'whitenoise.storage.StaticFilesStorage'
+
+CSRF_TRUSTED_ORIGINS={
+    "https://agentgrid-production-b46a.up.railway.app"
+}
